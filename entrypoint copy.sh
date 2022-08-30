@@ -48,7 +48,7 @@ echo "pre_release = $pre_release"
 git fetch --tags
     
 tagFmt="^v?[0-9]+\.[0-9]+\.[0-9]+$" 
-preTagFmt="^v?[0-9]+\.[0-9]+\.[0-9]+(-$suffix\-[0-9]+)?$" 
+preTagFmt="^v?[0-9]+\.[0-9]+\.[0-9]+(-$suffix\.[0-9]+)?$" 
 
 # get latest tag that looks like a semver (with or without v)
 case "$tag_context" in
@@ -122,7 +122,7 @@ then
     if [[ "$pre_tag" == *"$new"* ]]; then
         new=$(semver -i prerelease $pre_tag --preid $suffix); part="pre-$part"
     else
-        new="$new-$suffix-1"; part="pre-$part"
+        new="$new-$suffix.1"; part="pre-$part"
     fi
 fi
 
