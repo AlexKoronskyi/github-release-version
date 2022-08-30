@@ -122,7 +122,7 @@ then
     if [[ "$pre_tag" == *"$new"* ]]; then
         new=$(semver -i prerelease $pre_tag --preid $suffix); part="pre-$part"
     else
-        new="$new-$suffix.1"; part="pre-$part"
+        new="$new-$suffix-1"; part="pre-$part"
     fi
 fi
 
