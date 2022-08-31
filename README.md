@@ -29,6 +29,5 @@ Manual Bumping:
  Any commit message that includes #major, #minor or #patch will trigger the respective version bump. If two or more are present, the highest-ranking one will take precedence.
 
 
-
 Automatic Bumping:
  If no #major, #minor, or #patch tag is contained in the commit messages, it will bump whichever DEFAULT_BUMP is set to (which is Patch by default).# github-release-version
