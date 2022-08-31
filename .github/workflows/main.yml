@@ -11,6 +11,6 @@ jobs:
       with:
         fetch-depth: '0'
     - name: Bump version and push tag
-      uses: AlexKoronskyi/github-release-version@master
+      uses: AlexKoronskyi/github-release-version@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
