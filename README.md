@@ -24,7 +24,7 @@ other: Other changes
 2. To change the semantic version, add the key #major or #minor or  #patch to the commit.
 
 
-Bumping
+BUMPING
 Manual Bumping:
  Any commit message that includes #major, #minor or #patch will trigger the respective version bump. If two or more are present, the highest-ranking one will take precedence.
 
