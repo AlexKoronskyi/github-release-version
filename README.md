@@ -4,9 +4,6 @@ so, how to use the release workflow:
 "type: description."
 for example, " fix: your commit " or " feat : your commit " etc.
 
-
-
-
 Default commit types:
 breaking: Breaking Changes
 feat: New features
