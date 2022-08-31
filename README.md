@@ -1,6 +1,6 @@
 so, how to use the release workflow:
 
-1.Your commit messages should follow the format below:
+1. Your commit messages should follow the format below:
 "type: description."
 for example, " fix: your commit " or " feat : your commit " etc.
 
